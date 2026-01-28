@@ -1,8 +1,8 @@
 # PodAds Lab
 
-An inspectable podcast ad server simulator: Request → Filters → Auction → Serve → Metrics.
-
 ![PodAds Lab UI](pics/Screenshot%202026-01-26%20at%209.01.49%E2%80%AFPM.png)
+
+An inspectable podcast ad server simulator: Request → Filters → Auction → Serve → Metrics.
 
 ## The 5-Step Pipeline
 
