@@ -22,6 +22,8 @@ Every decision is explainable. Every run is deterministic. Same seed, same reque
 - Maven 3.6+
 - Docker & Docker Compose
 
+![PodAds Lab UI](pics/Screenshot%202026-01-26%20at%209.01.49%E2%80%AFPM.png)
+
 ### Run Locally
 
 1. **Install dependencies:**
