@@ -1,0 +1,788 @@
+{
+  "creatives": [
+    {
+      "id": "creat-001",
+      "campaignId": "camp-001",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/nike-air-max-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-002",
+      "campaignId": "camp-001",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/nike-air-max-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-003",
+      "campaignId": "camp-002",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/adidas-ultraboost-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-004",
+      "campaignId": "camp-003",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/apple-iphone-15-pro-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-005",
+      "campaignId": "camp-003",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/apple-iphone-15-pro-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-006",
+      "campaignId": "camp-004",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/samsung-galaxy-s24-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-007",
+      "campaignId": "camp-005",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/chase-sapphire-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-008",
+      "campaignId": "camp-006",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/amex-platinum-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-009",
+      "campaignId": "camp-007",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/spotify-premium-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-010",
+      "campaignId": "camp-008",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/tesla-model-y-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-011",
+      "campaignId": "camp-009",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/coursera-learn-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-012",
+      "campaignId": "camp-010",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/under-armour-hovr-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-013",
+      "campaignId": "camp-011",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/peloton-bike-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-014",
+      "campaignId": "camp-012",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/lululemon-align-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-015",
+      "campaignId": "camp-013",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/gatorade-thirst-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-016",
+      "campaignId": "camp-014",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/fitbit-charge-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-017",
+      "campaignId": "camp-015",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/reebok-classic-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-018",
+      "campaignId": "camp-016",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/puma-suede-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-019",
+      "campaignId": "camp-017",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/strava-premium-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-020",
+      "campaignId": "camp-018",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/espn-plus-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-021",
+      "campaignId": "camp-019",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/wilson-pro-staff-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-022",
+      "campaignId": "camp-020",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/rawlings-glove-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-023",
+      "campaignId": "camp-021",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/new-balance-990-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-024",
+      "campaignId": "camp-022",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/mizuno-wave-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-025",
+      "campaignId": "camp-023",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/google-pixel-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-026",
+      "campaignId": "camp-024",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/microsoft-surface-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-027",
+      "campaignId": "camp-025",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/meta-quest-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-028",
+      "campaignId": "camp-026",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/amazon-echo-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-029",
+      "campaignId": "camp-027",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/netflix-premium-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-030",
+      "campaignId": "camp-028",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/adobe-creative-cloud-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-031",
+      "campaignId": "camp-029",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/capital-one-venture-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-032",
+      "campaignId": "camp-030",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/bank-of-america-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-033",
+      "campaignId": "camp-031",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/paypal-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-034",
+      "campaignId": "camp-032",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/venmo-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-035",
+      "campaignId": "camp-033",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/robinhood-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-036",
+      "campaignId": "camp-034",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/fidelity-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-037",
+      "campaignId": "camp-035",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/mastercard-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-038",
+      "campaignId": "camp-036",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/visa-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-039",
+      "campaignId": "camp-037",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/audible-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-040",
+      "campaignId": "camp-038",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/amazon-prime-video-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-041",
+      "campaignId": "camp-039",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/hbo-max-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-042",
+      "campaignId": "camp-040",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/paramount-plus-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-043",
+      "campaignId": "camp-041",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/discovery-plus-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-044",
+      "campaignId": "camp-042",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/hulu-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-045",
+      "campaignId": "camp-043",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/peacock-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-046",
+      "campaignId": "camp-044",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/apple-tv-plus-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-047",
+      "campaignId": "camp-045",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/comedy-central-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-048",
+      "campaignId": "camp-046",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/siriusxm-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-049",
+      "campaignId": "camp-047",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/pandora-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-050",
+      "campaignId": "camp-048",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/iheartradio-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-051",
+      "campaignId": "camp-049",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/youtube-premium-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-052",
+      "campaignId": "camp-050",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/ny-times-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-053",
+      "campaignId": "camp-051",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/wsj-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-054",
+      "campaignId": "camp-052",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/cnn-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-055",
+      "campaignId": "camp-053",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/bbc-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-056",
+      "campaignId": "camp-054",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/bloomberg-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-057",
+      "campaignId": "camp-055",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/reuters-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-058",
+      "campaignId": "camp-056",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/npr-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-059",
+      "campaignId": "camp-057",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/washington-post-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-060",
+      "campaignId": "camp-058",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/guardian-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-061",
+      "campaignId": "camp-059",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/udemy-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-062",
+      "campaignId": "camp-060",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/khan-academy-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-063",
+      "campaignId": "camp-061",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/masterclass-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-064",
+      "campaignId": "camp-062",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/linkedin-learning-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-065",
+      "campaignId": "camp-063",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/skillshare-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-066",
+      "campaignId": "camp-064",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/duolingo-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-067",
+      "campaignId": "camp-065",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/babbel-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-068",
+      "campaignId": "camp-066",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/rosetta-stone-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-069",
+      "campaignId": "camp-067",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/edx-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-001",
+      "campaignId": "camp-abuse-001",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/weight-loss-scam-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-002",
+      "campaignId": "camp-abuse-001",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/weight-loss-scam-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-003",
+      "campaignId": "camp-abuse-002",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/fake-supplement-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-004",
+      "campaignId": "camp-abuse-003",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/crypto-scam-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-005",
+      "campaignId": "camp-abuse-003",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/crypto-scam-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-006",
+      "campaignId": "camp-abuse-004",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/phishing-tech-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-007",
+      "campaignId": "camp-abuse-005",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/get-rich-quick-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-008",
+      "campaignId": "camp-abuse-005",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/get-rich-quick-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-009",
+      "campaignId": "camp-abuse-006",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/payday-loan-scam-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-010",
+      "campaignId": "camp-abuse-007",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/diploma-mill-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-011",
+      "campaignId": "camp-abuse-008",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/fake-certification-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-012",
+      "campaignId": "camp-abuse-008",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/fake-certification-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-013",
+      "campaignId": "camp-abuse-009",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/testosterone-boost-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-014",
+      "campaignId": "camp-abuse-010",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/muscle-gain-pills-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-015",
+      "campaignId": "camp-abuse-010",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/muscle-gain-pills-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-016",
+      "campaignId": "camp-abuse-011",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/bitcoin-mining-scam-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-017",
+      "campaignId": "camp-abuse-011",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/bitcoin-mining-scam-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-018",
+      "campaignId": "camp-abuse-012",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/microsoft-support-scam-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-019",
+      "campaignId": "camp-abuse-013",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/investment-scam-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-020",
+      "campaignId": "camp-abuse-014",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/credit-repair-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-021",
+      "campaignId": "camp-abuse-015",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/online-degree-scam-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-022",
+      "campaignId": "camp-abuse-016",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/language-learning-scam-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-023",
+      "campaignId": "camp-abuse-016",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/language-learning-scam-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-024",
+      "campaignId": "camp-abuse-017",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/diet-pills-extreme-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-025",
+      "campaignId": "camp-abuse-018",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/nft-scam-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-026",
+      "campaignId": "camp-abuse-018",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/nft-scam-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-027",
+      "campaignId": "camp-abuse-019",
+      "durationSeconds": 30,
+      "assetUrl": "https://assets.podads.lab/tax-refund-scam-30s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll", "post-roll"]
+    },
+    {
+      "id": "creat-abuse-028",
+      "campaignId": "camp-abuse-020",
+      "durationSeconds": 45,
+      "assetUrl": "https://assets.podads.lab/coding-bootcamp-scam-45s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["pre-roll", "mid-roll"]
+    },
+    {
+      "id": "creat-abuse-029",
+      "campaignId": "camp-abuse-020",
+      "durationSeconds": 60,
+      "assetUrl": "https://assets.podads.lab/coding-bootcamp-scam-60s.mp3",
+      "approvalStatus": "approved",
+      "eligibleSlotTypes": ["mid-roll", "post-roll"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+notifiers:
+  - name: email_notifier
+    type: email
+    uid: email
+    org_id: 1
+    is_default: false
+    settings:
+      addresses: "oncall@podads-lab.local"
+      singleEmail: true
+      uploadImage: true
+
+  - name: webhook_notifier
+    type: webhook
+    uid: webhook
+    org_id: 1
+    is_default: true
+    settings:
+      url: "http://localhost:8080/webhook"
+      httpMethod: POST
+      title: "PodAds Alert: {{ .GroupLabels.alertname }}"
+      text: "{{ range .Alerts }}{{ .Annotations.description }}{{ end }}"

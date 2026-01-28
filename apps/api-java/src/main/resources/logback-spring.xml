@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <!-- JSON Encoder for Structured Logging -->
+    <appender name="JSON_CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <!-- Timestamp -->
+                <timestamp>
+                    <timeZone>UTC</timeZone>
+                    <fieldName>timestamp</fieldName>
+                </timestamp>
+                
+                <!-- Log Level -->
+                <logLevel>
+                    <fieldName>level</fieldName>
+                </logLevel>
+                
+                <!-- Logger Name -->
+                <loggerName>
+                    <fieldName>logger</fieldName>
+                </loggerName>
+                
+                <!-- Message -->
+                <message>
+                    <fieldName>message</fieldName>
+                </message>
+                
+                <!-- MDC (Mapped Diagnostic Context) for correlation IDs -->
+                <mdc>
+                    <includeMdcKeyName>requestId</includeMdcKeyName>
+                    <includeMdcKeyName>decisionId</includeMdcKeyName>
+                    <includeMdcKeyName>stage</includeMdcKeyName>
+                    <includeMdcKeyName>latencyMs</includeMdcKeyName>
+                    <includeMdcKeyName>fillRate</includeMdcKeyName>
+                </mdc>
+                
+                <!-- Stack Trace -->
+                <stackTrace>
+                    <fieldName>stackTrace</fieldName>
+                </stackTrace>
+                
+                <!-- Thread Name -->
+                <threadName>
+                    <fieldName>thread</fieldName>
+                </threadName>
+            </providers>
+        </encoder>
+    </appender>
+
+    <!-- Standard Console Appender (for development) -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Use JSON in production, standard console in development -->
+    <springProfile name="!dev">
+        <root level="INFO">
+            <appender-ref ref="JSON_CONSOLE"/>
+        </root>
+    </springProfile>
+
+    <springProfile name="dev">
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+    </springProfile>
+
+    <!-- Application-specific loggers -->
+    <logger name="com.podads" level="INFO"/>
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.apache" level="WARN"/>
+</configuration>

@@ -1,0 +1,22 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: 'podads-lab'
+    environment: 'local'
+
+rule_files:
+  - 'alert_rules.yml'
+
+scrape_configs:
+  - job_name: 'podads-api'
+    scrape_interval: 15s
+    scrape_timeout: 10s
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['host.docker.internal:8000']
+        labels:
+          service: 'podads-api'
+          environment: 'local'
+
+

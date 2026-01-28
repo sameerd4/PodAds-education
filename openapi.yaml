@@ -1,0 +1,330 @@
+openapi: 3.0.0
+info:
+  title: PodAds Lab API
+  description: Podcast ad server simulator API
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+
+paths:
+  /v1/decision:
+    post:
+      summary: Make an ad decision
+      operationId: makeDecision
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AdRequest'
+      responses:
+        '200':
+          description: Decision made successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AdDecision'
+        '400':
+          description: Invalid request
+        '500':
+          description: Internal server error
+
+  /v1/events:
+    post:
+      summary: Record a delivery event
+      operationId: recordEvent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeliveryEvent'
+      responses:
+        '200':
+          description: Event recorded
+        '400':
+          description: Invalid request
+
+  /v1/trace/{decisionId}:
+    get:
+      summary: Get a decision trace by ID
+      operationId: getTrace
+      parameters:
+        - name: decisionId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Trace found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DecisionTrace'
+        '404':
+          description: Trace not found
+
+components:
+  schemas:
+    AdRequest:
+      type: object
+      required:
+        - requestId
+        - podcast
+        - slot
+        - listener
+        - timestamp
+      properties:
+        requestId:
+          type: string
+        podcast:
+          $ref: '#/components/schemas/PodcastContext'
+        slot:
+          $ref: '#/components/schemas/SlotContext'
+        listener:
+          $ref: '#/components/schemas/ListenerContext'
+        timestamp:
+          type: string
+          format: date-time
+
+    PodcastContext:
+      type: object
+      required:
+        - category
+        - show
+        - episode
+      properties:
+        category:
+          type: string
+          enum: [fitness, tech, finance, true-crime, sports, comedy, news, education]
+        show:
+          type: string
+        episode:
+          type: string
+
+    SlotContext:
+      type: object
+      required:
+        - type
+      properties:
+        type:
+          type: string
+          enum: [pre-roll, mid-roll, post-roll]
+        cuePoint:
+          type: integer
+          nullable: true
+
+    ListenerContext:
+      type: object
+      required:
+        - geo
+        - device
+        - tier
+        - consent
+        - timeOfDay
+      properties:
+        geo:
+          type: string
+        device:
+          type: string
+          enum: [mobile, desktop, smart-speaker, car]
+        tier:
+          type: string
+          enum: [free, premium]
+        consent:
+          type: boolean
+        timeOfDay:
+          type: string
+          enum: [morning, afternoon, evening, night]
+
+    AdDecision:
+      type: object
+      required:
+        - decisionId
+        - requestId
+        - seed
+        - timestamp
+        - stages
+        - candidates
+      properties:
+        decisionId:
+          type: string
+        requestId:
+          type: string
+        seed:
+          type: integer
+        timestamp:
+          type: string
+          format: date-time
+        stages:
+          type: array
+          items:
+            $ref: '#/components/schemas/PipelineStage'
+        candidates:
+          type: array
+          items:
+            $ref: '#/components/schemas/CandidateWithScore'
+        winner:
+          $ref: '#/components/schemas/Winner'
+          nullable: true
+        noFillReason:
+          type: string
+          nullable: true
+
+    PipelineStage:
+      type: object
+      required:
+        - stageName
+        - latencyMs
+        - inputSummary
+        - outputSummary
+      properties:
+        stageName:
+          type: string
+        latencyMs:
+          type: number
+        inputSummary:
+          type: string
+        outputSummary:
+          type: string
+        debugPayload:
+          type: object
+          nullable: true
+
+    CandidateWithScore:
+      type: object
+      required:
+        - candidateId
+        - campaignId
+        - creativeId
+        - filterResults
+        - score
+        - passedAllFilters
+      properties:
+        candidateId:
+          type: string
+        campaignId:
+          type: string
+        creativeId:
+          type: string
+        filterResults:
+          type: object
+        score:
+          $ref: '#/components/schemas/AuctionScore'
+        passedAllFilters:
+          type: boolean
+
+    AuctionScore:
+      type: object
+      required:
+        - bidCpm
+        - matchScore
+        - pacingMultiplier
+        - finalScore
+        - breakdown
+      properties:
+        bidCpm:
+          type: number
+        matchScore:
+          type: number
+        pacingMultiplier:
+          type: number
+        finalScore:
+          type: number
+        breakdown:
+          type: object
+
+    Winner:
+      type: object
+      required:
+        - candidate
+        - serve
+      properties:
+        candidate:
+          $ref: '#/components/schemas/CandidateWithScore'
+        serve:
+          $ref: '#/components/schemas/ServeInstruction'
+
+    ServeInstruction:
+      type: object
+      required:
+        - creativeId
+        - campaignId
+        - assetUrl
+        - durationSeconds
+        - trackingUrls
+      properties:
+        creativeId:
+          type: string
+        campaignId:
+          type: string
+        assetUrl:
+          type: string
+        durationSeconds:
+          type: integer
+        trackingUrls:
+          $ref: '#/components/schemas/TrackingUrls'
+        pricePaid:
+          type: number
+          nullable: true
+
+    TrackingUrls:
+      type: object
+      required:
+        - impression
+        - quartiles
+        - complete
+        - click
+      properties:
+        impression:
+          type: string
+        quartiles:
+          type: array
+          items:
+            type: string
+        complete:
+          type: string
+        click:
+          type: string
+
+    DeliveryEvent:
+      type: object
+      required:
+        - decisionId
+        - eventType
+        - timestamp
+      properties:
+        decisionId:
+          type: string
+        eventType:
+          type: string
+          enum: [impression, quartile_25, quartile_50, quartile_75, quartile_100, complete, click]
+        timestamp:
+          type: string
+          format: date-time
+        metadata:
+          type: object
+          nullable: true
+
+    DecisionTrace:
+      type: object
+      required:
+        - decisionId
+        - request
+        - decision
+        - createdAt
+      properties:
+        decisionId:
+          type: string
+        request:
+          $ref: '#/components/schemas/AdRequest'
+        decision:
+          $ref: '#/components/schemas/AdDecision'
+        createdAt:
+          type: string
+          format: date-time
+
+

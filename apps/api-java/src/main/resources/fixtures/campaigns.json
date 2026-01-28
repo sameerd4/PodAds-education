@@ -1,0 +1,2096 @@
+{
+  "campaigns": [
+    {
+      "id": "camp-001",
+      "advertiserId": "adv-nike",
+      "name": "Nike Air Max - Just Do It",
+      "status": "active",
+      "budget": {
+        "total": 5000000,
+        "remaining": 3200000
+      },
+      "bidCpm": 850,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness", "sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 50000,
+        "dailySpend": 32000
+      },
+      "frequencyCap": {
+        "maxImpressions": 3,
+        "windowHours": 24
+      }
+    },
+    {
+      "id": "camp-002",
+      "advertiserId": "adv-adidas",
+      "name": "Adidas Ultraboost - Impossible is Nothing",
+      "status": "active",
+      "budget": {
+        "total": 3000000,
+        "remaining": 1800000
+      },
+      "bidCpm": 720,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "GB"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 30000,
+        "dailySpend": 15000
+      }
+    },
+    {
+      "id": "camp-010",
+      "advertiserId": "adv-under-armour",
+      "name": "Under Armour HOVR - I Will",
+      "status": "active",
+      "budget": {
+        "total": 4200000,
+        "remaining": 2800000
+      },
+      "bidCpm": 780,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness", "sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 42000,
+        "dailySpend": 20000
+      }
+    },
+    {
+      "id": "camp-011",
+      "advertiserId": "adv-peloton",
+      "name": "Peloton Bike+ - Together We Go Far",
+      "status": "active",
+      "budget": {
+        "total": 5500000,
+        "remaining": 3600000
+      },
+      "bidCpm": 920,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 55000,
+        "dailySpend": 28000
+      }
+    },
+    {
+      "id": "camp-012",
+      "advertiserId": "adv-lululemon",
+      "name": "Lululemon Align - Sweat Life",
+      "status": "active",
+      "budget": {
+        "total": 4800000,
+        "remaining": 3100000
+      },
+      "bidCpm": 880,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 48000,
+        "dailySpend": 24000
+      }
+    },
+    {
+      "id": "camp-013",
+      "advertiserId": "adv-gatorade",
+      "name": "Gatorade Thirst Quencher - Win From Within",
+      "status": "active",
+      "budget": {
+        "total": 3800000,
+        "remaining": 2500000
+      },
+      "bidCpm": 650,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness", "sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 38000,
+        "dailySpend": 18000
+      }
+    },
+    {
+      "id": "camp-014",
+      "advertiserId": "adv-fitbit",
+      "name": "Fitbit Charge 6 - Know Your Body Better",
+      "status": "active",
+      "budget": {
+        "total": 3600000,
+        "remaining": 2300000
+      },
+      "bidCpm": 720,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 36000,
+        "dailySpend": 17000
+      }
+    },
+    {
+      "id": "camp-015",
+      "advertiserId": "adv-reebok",
+      "name": "Reebok Classic - Be More Human",
+      "status": "active",
+      "budget": {
+        "total": 3200000,
+        "remaining": 2100000
+      },
+      "bidCpm": 680,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness", "sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 32000,
+        "dailySpend": 15000
+      }
+    },
+    {
+      "id": "camp-016",
+      "advertiserId": "adv-puma",
+      "name": "Puma Suede - Forever Faster",
+      "status": "active",
+      "budget": {
+        "total": 3400000,
+        "remaining": 2200000
+      },
+      "bidCpm": 700,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness", "sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 34000,
+        "dailySpend": 16000
+      }
+    },
+    {
+      "id": "camp-017",
+      "advertiserId": "adv-strava",
+      "name": "Strava Premium - The Social Network for Athletes",
+      "status": "active",
+      "budget": {
+        "total": 2900000,
+        "remaining": 1900000
+      },
+      "bidCpm": 620,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["fitness", "sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 29000,
+        "dailySpend": 14000
+      }
+    },
+    {
+      "id": "camp-018",
+      "advertiserId": "adv-espn",
+      "name": "ESPN+ - The Worldwide Leader in Sports",
+      "status": "active",
+      "budget": {
+        "total": 7200000,
+        "remaining": 4800000
+      },
+      "bidCpm": 950,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 72000,
+        "dailySpend": 35000
+      }
+    },
+    {
+      "id": "camp-019",
+      "advertiserId": "adv-wilson",
+      "name": "Wilson Pro Staff - The Ball Makes The Difference",
+      "status": "active",
+      "budget": {
+        "total": 2800000,
+        "remaining": 1800000
+      },
+      "bidCpm": 580,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 28000,
+        "dailySpend": 13000
+      }
+    },
+    {
+      "id": "camp-020",
+      "advertiserId": "adv-rawlings",
+      "name": "Rawlings Glove - The Mark of a Pro",
+      "status": "active",
+      "budget": {
+        "total": 2600000,
+        "remaining": 1700000
+      },
+      "bidCpm": 550,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 26000,
+        "dailySpend": 12000
+      }
+    },
+    {
+      "id": "camp-021",
+      "advertiserId": "adv-new-balance",
+      "name": "New Balance 990 - Endorsed by No One",
+      "status": "active",
+      "budget": {
+        "total": 3100000,
+        "remaining": 2000000
+      },
+      "bidCpm": 640,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 31000,
+        "dailySpend": 15000
+      }
+    },
+    {
+      "id": "camp-022",
+      "advertiserId": "adv-mizuno",
+      "name": "Mizuno Wave - Never Settle",
+      "status": "active",
+      "budget": {
+        "total": 2700000,
+        "remaining": 1750000
+      },
+      "bidCpm": 590,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["sports"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 27000,
+        "dailySpend": 13000
+      }
+    },
+    {
+      "id": "camp-003",
+      "advertiserId": "adv-apple",
+      "name": "Apple iPhone 15 Pro - Think Different",
+      "status": "active",
+      "budget": {
+        "total": 10000000,
+        "remaining": 7500000
+      },
+      "bidCpm": 1200,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 100000,
+        "dailySpend": 45000
+      }
+    },
+    {
+      "id": "camp-004",
+      "advertiserId": "adv-samsung",
+      "name": "Samsung Galaxy S24 Ultra - Do What You Can't",
+      "status": "active",
+      "budget": {
+        "total": 8000000,
+        "remaining": 5200000
+      },
+      "bidCpm": 1100,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 80000,
+        "dailySpend": 38000
+      }
+    },
+    {
+      "id": "camp-007",
+      "advertiserId": "adv-spotify",
+      "name": "Spotify Premium - Music for Everyone",
+      "status": "active",
+      "budget": {
+        "total": 4000000,
+        "remaining": 2900000
+      },
+      "bidCpm": 680,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free"],
+        "categories": ["tech", "comedy", "true-crime"],
+        "excludeCategories": ["news"]
+      },
+      "pacing": {
+        "dailyBudget": 40000,
+        "dailySpend": 18000
+      }
+    },
+    {
+      "id": "camp-008",
+      "advertiserId": "adv-tesla",
+      "name": "Tesla Model Y - Accelerate the World's Transition",
+      "status": "active",
+      "budget": {
+        "total": 3500000,
+        "remaining": 2400000
+      },
+      "bidCpm": 780,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech", "news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 35000,
+        "dailySpend": 19000
+      }
+    },
+    {
+      "id": "camp-023",
+      "advertiserId": "adv-google",
+      "name": "Google Pixel 8 - Made by Google",
+      "status": "active",
+      "budget": {
+        "total": 9500000,
+        "remaining": 6200000
+      },
+      "bidCpm": 1150,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 95000,
+        "dailySpend": 42000
+      }
+    },
+    {
+      "id": "camp-024",
+      "advertiserId": "adv-microsoft",
+      "name": "Microsoft Surface Pro - Do More",
+      "status": "active",
+      "budget": {
+        "total": 8800000,
+        "remaining": 5700000
+      },
+      "bidCpm": 1080,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 88000,
+        "dailySpend": 40000
+      }
+    },
+    {
+      "id": "camp-025",
+      "advertiserId": "adv-meta",
+      "name": "Meta Quest 3 - Step Into the Future",
+      "status": "active",
+      "budget": {
+        "total": 7200000,
+        "remaining": 4700000
+      },
+      "bidCpm": 980,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 72000,
+        "dailySpend": 33000
+      }
+    },
+    {
+      "id": "camp-026",
+      "advertiserId": "adv-amazon",
+      "name": "Amazon Echo - Just Ask",
+      "status": "active",
+      "budget": {
+        "total": 8200000,
+        "remaining": 5300000
+      },
+      "bidCpm": 1020,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 82000,
+        "dailySpend": 37000
+      }
+    },
+    {
+      "id": "camp-027",
+      "advertiserId": "adv-netflix",
+      "name": "Netflix Premium - See What's Next",
+      "status": "active",
+      "budget": {
+        "total": 11000000,
+        "remaining": 7200000
+      },
+      "bidCpm": 1250,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["tech", "comedy", "true-crime"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 110000,
+        "dailySpend": 50000
+      }
+    },
+    {
+      "id": "camp-028",
+      "advertiserId": "adv-adobe",
+      "name": "Adobe Creative Cloud - Create Anything",
+      "status": "active",
+      "budget": {
+        "total": 6800000,
+        "remaining": 4400000
+      },
+      "bidCpm": 890,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 68000,
+        "dailySpend": 31000
+      }
+    },
+    {
+      "id": "camp-005",
+      "advertiserId": "adv-chase",
+      "name": "Chase Sapphire Preferred - Don't Just Travel, Travel Better",
+      "status": "active",
+      "budget": {
+        "total": 6000000,
+        "remaining": 4100000
+      },
+      "bidCpm": 950,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 60000,
+        "dailySpend": 28000
+      }
+    },
+    {
+      "id": "camp-006",
+      "advertiserId": "adv-american-express",
+      "name": "American Express Platinum - Don't Live Life Without It",
+      "status": "active",
+      "budget": {
+        "total": 5000000,
+        "remaining": 3300000
+      },
+      "bidCpm": 1050,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 50000,
+        "dailySpend": 22000
+      }
+    },
+    {
+      "id": "camp-029",
+      "advertiserId": "adv-capital-one",
+      "name": "Capital One Venture - What's in Your Wallet?",
+      "status": "active",
+      "budget": {
+        "total": 5400000,
+        "remaining": 3500000
+      },
+      "bidCpm": 920,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 54000,
+        "dailySpend": 25000
+      }
+    },
+    {
+      "id": "camp-030",
+      "advertiserId": "adv-bank-of-america",
+      "name": "Bank of America Preferred Rewards - Life's Better Connected",
+      "status": "active",
+      "budget": {
+        "total": 5800000,
+        "remaining": 3800000
+      },
+      "bidCpm": 980,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 58000,
+        "dailySpend": 27000
+      }
+    },
+    {
+      "id": "camp-031",
+      "advertiserId": "adv-paypal",
+      "name": "PayPal - The Simpler, Safer Way to Pay",
+      "status": "active",
+      "budget": {
+        "total": 5200000,
+        "remaining": 3400000
+      },
+      "bidCpm": 880,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 52000,
+        "dailySpend": 24000
+      }
+    },
+    {
+      "id": "camp-032",
+      "advertiserId": "adv-venmo",
+      "name": "Venmo - Pay Friends, Not Fees",
+      "status": "active",
+      "budget": {
+        "total": 4600000,
+        "remaining": 3000000
+      },
+      "bidCpm": 820,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 46000,
+        "dailySpend": 21000
+      }
+    },
+    {
+      "id": "camp-033",
+      "advertiserId": "adv-robinhood",
+      "name": "Robinhood - Invest for Free",
+      "status": "active",
+      "budget": {
+        "total": 4900000,
+        "remaining": 3200000
+      },
+      "bidCpm": 850,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 49000,
+        "dailySpend": 23000
+      }
+    },
+    {
+      "id": "camp-034",
+      "advertiserId": "adv-fidelity",
+      "name": "Fidelity Investments - See How We Invest",
+      "status": "active",
+      "budget": {
+        "total": 5600000,
+        "remaining": 3700000
+      },
+      "bidCpm": 940,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 56000,
+        "dailySpend": 26000
+      }
+    },
+    {
+      "id": "camp-035",
+      "advertiserId": "adv-mastercard",
+      "name": "Mastercard - There Are Some Things Money Can't Buy",
+      "status": "active",
+      "budget": {
+        "total": 7500000,
+        "remaining": 4900000
+      },
+      "bidCpm": 1100,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 75000,
+        "dailySpend": 34000
+      }
+    },
+    {
+      "id": "camp-036",
+      "advertiserId": "adv-visa",
+      "name": "Visa - It's Everywhere You Want to Be",
+      "status": "active",
+      "budget": {
+        "total": 7800000,
+        "remaining": 5100000
+      },
+      "bidCpm": 1120,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 78000,
+        "dailySpend": 36000
+      }
+    },
+    {
+      "id": "camp-037",
+      "advertiserId": "adv-audible",
+      "name": "Audible - Listen to Great Books",
+      "status": "active",
+      "budget": {
+        "total": 6400000,
+        "remaining": 4200000
+      },
+      "bidCpm": 960,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["true-crime", "comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 64000,
+        "dailySpend": 29000
+      }
+    },
+    {
+      "id": "camp-038",
+      "advertiserId": "adv-amazon-prime",
+      "name": "Amazon Prime Video - Watch Anywhere",
+      "status": "active",
+      "budget": {
+        "total": 8600000,
+        "remaining": 5600000
+      },
+      "bidCpm": 1040,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["true-crime", "comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 86000,
+        "dailySpend": 39000
+      }
+    },
+    {
+      "id": "camp-039",
+      "advertiserId": "adv-hbo-max",
+      "name": "HBO Max - The One to Watch",
+      "status": "active",
+      "budget": {
+        "total": 9200000,
+        "remaining": 6000000
+      },
+      "bidCpm": 1180,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["premium"],
+        "categories": ["true-crime", "comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 92000,
+        "dailySpend": 42000
+      }
+    },
+    {
+      "id": "camp-040",
+      "advertiserId": "adv-paramount-plus",
+      "name": "Paramount+ - A Mountain of Entertainment",
+      "status": "active",
+      "budget": {
+        "total": 7000000,
+        "remaining": 4600000
+      },
+      "bidCpm": 990,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["true-crime"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 70000,
+        "dailySpend": 32000
+      }
+    },
+    {
+      "id": "camp-041",
+      "advertiserId": "adv-discovery-plus",
+      "name": "Discovery+ - Real Life. Real Entertainment.",
+      "status": "active",
+      "budget": {
+        "total": 6600000,
+        "remaining": 4300000
+      },
+      "bidCpm": 940,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["true-crime"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 66000,
+        "dailySpend": 30000
+      }
+    },
+    {
+      "id": "camp-042",
+      "advertiserId": "adv-hulu",
+      "name": "Hulu - TV Your Way",
+      "status": "active",
+      "budget": {
+        "total": 8000000,
+        "remaining": 5200000
+      },
+      "bidCpm": 1010,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["true-crime", "comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 80000,
+        "dailySpend": 36000
+      }
+    },
+    {
+      "id": "camp-043",
+      "advertiserId": "adv-peacock",
+      "name": "Peacock - Stream What You Love",
+      "status": "active",
+      "budget": {
+        "total": 7400000,
+        "remaining": 4800000
+      },
+      "bidCpm": 980,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["true-crime", "comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 74000,
+        "dailySpend": 34000
+      }
+    },
+    {
+      "id": "camp-044",
+      "advertiserId": "adv-apple-tv",
+      "name": "Apple TV+ - Stories That Move You",
+      "status": "active",
+      "budget": {
+        "total": 8800000,
+        "remaining": 5700000
+      },
+      "bidCpm": 1060,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["premium"],
+        "categories": ["true-crime", "comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 88000,
+        "dailySpend": 40000
+      }
+    },
+    {
+      "id": "camp-045",
+      "advertiserId": "adv-comedy-central",
+      "name": "Comedy Central - Laugh More",
+      "status": "active",
+      "budget": {
+        "total": 6200000,
+        "remaining": 4100000
+      },
+      "bidCpm": 920,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 62000,
+        "dailySpend": 28000
+      }
+    },
+    {
+      "id": "camp-046",
+      "advertiserId": "adv-siriusxm",
+      "name": "SiriusXM - Listen to What You Love",
+      "status": "active",
+      "budget": {
+        "total": 5800000,
+        "remaining": 3800000
+      },
+      "bidCpm": 870,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["premium"],
+        "categories": ["comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 58000,
+        "dailySpend": 27000
+      }
+    },
+    {
+      "id": "camp-047",
+      "advertiserId": "adv-pandora",
+      "name": "Pandora Premium - The Music Genome Project",
+      "status": "active",
+      "budget": {
+        "total": 5000000,
+        "remaining": 3300000
+      },
+      "bidCpm": 790,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 50000,
+        "dailySpend": 23000
+      }
+    },
+    {
+      "id": "camp-048",
+      "advertiserId": "adv-iheartradio",
+      "name": "iHeartRadio - Hear What You Love",
+      "status": "active",
+      "budget": {
+        "total": 5400000,
+        "remaining": 3500000
+      },
+      "bidCpm": 830,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 54000,
+        "dailySpend": 25000
+      }
+    },
+    {
+      "id": "camp-049",
+      "advertiserId": "adv-youtube-premium",
+      "name": "YouTube Premium - Watch Without Interruptions",
+      "status": "active",
+      "budget": {
+        "total": 9600000,
+        "remaining": 6300000
+      },
+      "bidCpm": 1200,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["comedy"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 96000,
+        "dailySpend": 44000
+      }
+    },
+    {
+      "id": "camp-050",
+      "advertiserId": "adv-ny-times",
+      "name": "The New York Times - The Truth is Worth It",
+      "status": "active",
+      "budget": {
+        "total": 8400000,
+        "remaining": 5500000
+      },
+      "bidCpm": 1140,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 84000,
+        "dailySpend": 38000
+      }
+    },
+    {
+      "id": "camp-051",
+      "advertiserId": "adv-wsj",
+      "name": "The Wall Street Journal - The Business of Life",
+      "status": "active",
+      "budget": {
+        "total": 9000000,
+        "remaining": 5900000
+      },
+      "bidCpm": 1180,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 90000,
+        "dailySpend": 41000
+      }
+    },
+    {
+      "id": "camp-052",
+      "advertiserId": "adv-cnn",
+      "name": "CNN - Go There",
+      "status": "active",
+      "budget": {
+        "total": 8800000,
+        "remaining": 5800000
+      },
+      "bidCpm": 1160,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 88000,
+        "dailySpend": 40000
+      }
+    },
+    {
+      "id": "camp-053",
+      "advertiserId": "adv-bbc",
+      "name": "BBC News - Trusted Journalism",
+      "status": "active",
+      "budget": {
+        "total": 8200000,
+        "remaining": 5400000
+      },
+      "bidCpm": 1120,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "smart-speaker"],
+        "tier": ["free", "premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 82000,
+        "dailySpend": 37000
+      }
+    },
+    {
+      "id": "camp-054",
+      "advertiserId": "adv-bloomberg",
+      "name": "Bloomberg - The Terminal",
+      "status": "active",
+      "budget": {
+        "total": 9600000,
+        "remaining": 6300000
+      },
+      "bidCpm": 1220,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 96000,
+        "dailySpend": 44000
+      }
+    },
+    {
+      "id": "camp-055",
+      "advertiserId": "adv-reuters",
+      "name": "Reuters - The World's News Leader",
+      "status": "active",
+      "budget": {
+        "total": 8000000,
+        "remaining": 5200000
+      },
+      "bidCpm": 1100,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 80000,
+        "dailySpend": 36000
+      }
+    },
+    {
+      "id": "camp-056",
+      "advertiserId": "adv-npr",
+      "name": "NPR - In Depth. On Point.",
+      "status": "active",
+      "budget": {
+        "total": 7600000,
+        "remaining": 5000000
+      },
+      "bidCpm": 1080,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop", "smart-speaker", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 76000,
+        "dailySpend": 35000
+      }
+    },
+    {
+      "id": "camp-057",
+      "advertiserId": "adv-washington-post",
+      "name": "The Washington Post - Democracy Dies in Darkness",
+      "status": "active",
+      "budget": {
+        "total": 7800000,
+        "remaining": 5100000
+      },
+      "bidCpm": 1090,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 78000,
+        "dailySpend": 36000
+      }
+    },
+    {
+      "id": "camp-058",
+      "advertiserId": "adv-guardian",
+      "name": "The Guardian - Open Journalism",
+      "status": "active",
+      "budget": {
+        "total": 7200000,
+        "remaining": 4700000
+      },
+      "bidCpm": 1050,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["news"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 72000,
+        "dailySpend": 33000
+      }
+    },
+    {
+      "id": "camp-009",
+      "advertiserId": "adv-coursera",
+      "name": "Coursera - Learn Without Limits",
+      "status": "active",
+      "budget": {
+        "total": 4500000,
+        "remaining": 3100000
+      },
+      "bidCpm": 880,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop", "car"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 45000,
+        "dailySpend": 21000
+      }
+    },
+    {
+      "id": "camp-059",
+      "advertiserId": "adv-udemy",
+      "name": "Udemy - Learn Anything, On Your Schedule",
+      "status": "active",
+      "budget": {
+        "total": 4800000,
+        "remaining": 3200000
+      },
+      "bidCpm": 860,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 48000,
+        "dailySpend": 22000
+      }
+    },
+    {
+      "id": "camp-060",
+      "advertiserId": "adv-khan-academy",
+      "name": "Khan Academy - You Can Learn Anything",
+      "status": "active",
+      "budget": {
+        "total": 4200000,
+        "remaining": 2800000
+      },
+      "bidCpm": 780,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 42000,
+        "dailySpend": 20000
+      }
+    },
+    {
+      "id": "camp-061",
+      "advertiserId": "adv-masterclass",
+      "name": "MasterClass - Learn From the Best",
+      "status": "active",
+      "budget": {
+        "total": 5200000,
+        "remaining": 3400000
+      },
+      "bidCpm": 900,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 52000,
+        "dailySpend": 24000
+      }
+    },
+    {
+      "id": "camp-062",
+      "advertiserId": "adv-linkedin-learning",
+      "name": "LinkedIn Learning - Advance Your Career",
+      "status": "active",
+      "budget": {
+        "total": 5600000,
+        "remaining": 3700000
+      },
+      "bidCpm": 920,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 56000,
+        "dailySpend": 26000
+      }
+    },
+    {
+      "id": "camp-063",
+      "advertiserId": "adv-skillshare",
+      "name": "Skillshare - Learn Creative Skills",
+      "status": "active",
+      "budget": {
+        "total": 4400000,
+        "remaining": 2900000
+      },
+      "bidCpm": 820,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 44000,
+        "dailySpend": 21000
+      }
+    },
+    {
+      "id": "camp-064",
+      "advertiserId": "adv-duolingo",
+      "name": "Duolingo - Learn a Language for Free",
+      "status": "active",
+      "budget": {
+        "total": 4000000,
+        "remaining": 2600000
+      },
+      "bidCpm": 750,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 40000,
+        "dailySpend": 19000
+      }
+    },
+    {
+      "id": "camp-065",
+      "advertiserId": "adv-babbel",
+      "name": "Babbel - Speak a New Language",
+      "status": "active",
+      "budget": {
+        "total": 3800000,
+        "remaining": 2500000
+      },
+      "bidCpm": 720,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 38000,
+        "dailySpend": 18000
+      }
+    },
+    {
+      "id": "camp-066",
+      "advertiserId": "adv-rosetta-stone",
+      "name": "Rosetta Stone - Speak Confidently",
+      "status": "active",
+      "budget": {
+        "total": 3600000,
+        "remaining": 2400000
+      },
+      "bidCpm": 690,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 36000,
+        "dailySpend": 17000
+      }
+    },
+    {
+      "id": "camp-067",
+      "advertiserId": "adv-edx",
+      "name": "edX - Learn Without Limits",
+      "status": "active",
+      "budget": {
+        "total": 4600000,
+        "remaining": 3000000
+      },
+      "bidCpm": 840,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 46000,
+        "dailySpend": 22000
+      }
+    },
+    {
+      "id": "camp-abuse-001",
+      "advertiserId": "adv-weight-loss-scam",
+      "name": "Lose 50lbs in 2 Weeks - Guaranteed!",
+      "status": "active",
+      "budget": {
+        "total": 1000000,
+        "remaining": 800000
+      },
+      "bidCpm": 1200,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 10000,
+        "dailySpend": 5000
+      }
+    },
+    {
+      "id": "camp-abuse-002",
+      "advertiserId": "adv-fake-supplement",
+      "name": "Miracle Fat Burner - Doctors Hate This!",
+      "status": "active",
+      "budget": {
+        "total": 800000,
+        "remaining": 600000
+      },
+      "bidCpm": 1100,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 8000,
+        "dailySpend": 4000
+      }
+    },
+    {
+      "id": "camp-abuse-003",
+      "advertiserId": "adv-crypto-scam",
+      "name": "Turn $100 into $10,000 with Crypto Trading Bot",
+      "status": "active",
+      "budget": {
+        "total": 2000000,
+        "remaining": 1500000
+      },
+      "bidCpm": 1500,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 20000,
+        "dailySpend": 12000
+      }
+    },
+    {
+      "id": "camp-abuse-004",
+      "advertiserId": "adv-phishing-tech",
+      "name": "Your Apple Account Needs Verification - Click Now",
+      "status": "active",
+      "budget": {
+        "total": 1500000,
+        "remaining": 1100000
+      },
+      "bidCpm": 1300,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 15000,
+        "dailySpend": 9000
+      }
+    },
+    {
+      "id": "camp-abuse-005",
+      "advertiserId": "adv-get-rich-quick",
+      "name": "Make $10,000 a Month Working from Home - No Experience Needed",
+      "status": "active",
+      "budget": {
+        "total": 1800000,
+        "remaining": 1400000
+      },
+      "bidCpm": 1400,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 18000,
+        "dailySpend": 11000
+      }
+    },
+    {
+      "id": "camp-abuse-006",
+      "advertiserId": "adv-payday-loan-scam",
+      "name": "Instant Cash Loan - No Credit Check - Guaranteed Approval",
+      "status": "active",
+      "budget": {
+        "total": 1200000,
+        "remaining": 900000
+      },
+      "bidCpm": 1250,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 12000,
+        "dailySpend": 7000
+      }
+    },
+    {
+      "id": "camp-abuse-007",
+      "advertiserId": "adv-diploma-mill",
+      "name": "Get Your PhD in 30 Days - No Classes Required",
+      "status": "active",
+      "budget": {
+        "total": 900000,
+        "remaining": 700000
+      },
+      "bidCpm": 1150,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 9000,
+        "dailySpend": 5500
+      }
+    },
+    {
+      "id": "camp-abuse-008",
+      "advertiserId": "adv-fake-certification",
+      "name": "Become a Certified Expert in Anything - Instant Certificate",
+      "status": "active",
+      "budget": {
+        "total": 1100000,
+        "remaining": 850000
+      },
+      "bidCpm": 1200,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 11000,
+        "dailySpend": 6500
+      }
+    },
+    {
+      "id": "camp-abuse-009",
+      "advertiserId": "adv-testosterone-boost",
+      "name": "Increase Testosterone 300% - Natural Male Enhancement",
+      "status": "active",
+      "budget": {
+        "total": 950000,
+        "remaining": 750000
+      },
+      "bidCpm": 1180,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 9500,
+        "dailySpend": 4800
+      }
+    },
+    {
+      "id": "camp-abuse-010",
+      "advertiserId": "adv-muscle-gain-pills",
+      "name": "Gain 20lbs of Muscle in 30 Days - No Gym Required",
+      "status": "active",
+      "budget": {
+        "total": 850000,
+        "remaining": 650000
+      },
+      "bidCpm": 1120,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 8500,
+        "dailySpend": 4200
+      }
+    },
+    {
+      "id": "camp-abuse-011",
+      "advertiserId": "adv-bitcoin-mining-scam",
+      "name": "Earn Free Bitcoin Daily - No Investment Required",
+      "status": "active",
+      "budget": {
+        "total": 2200000,
+        "remaining": 1700000
+      },
+      "bidCpm": 1550,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 22000,
+        "dailySpend": 13000
+      }
+    },
+    {
+      "id": "camp-abuse-012",
+      "advertiserId": "adv-microsoft-support-scam",
+      "name": "Windows Security Alert - Your Computer is Infected",
+      "status": "active",
+      "budget": {
+        "total": 1600000,
+        "remaining": 1200000
+      },
+      "bidCpm": 1350,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 16000,
+        "dailySpend": 9500
+      }
+    },
+    {
+      "id": "camp-abuse-013",
+      "advertiserId": "adv-investment-scam",
+      "name": "Double Your Money in 7 Days - Guaranteed Returns",
+      "status": "active",
+      "budget": {
+        "total": 1900000,
+        "remaining": 1450000
+      },
+      "bidCpm": 1450,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 19000,
+        "dailySpend": 11500
+      }
+    },
+    {
+      "id": "camp-abuse-014",
+      "advertiserId": "adv-credit-repair",
+      "name": "Fix Your Credit Score Instantly - Remove All Negative Items",
+      "status": "active",
+      "budget": {
+        "total": 1300000,
+        "remaining": 1000000
+      },
+      "bidCpm": 1280,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 13000,
+        "dailySpend": 7800
+      }
+    },
+    {
+      "id": "camp-abuse-015",
+      "advertiserId": "adv-online-degree-scam",
+      "name": "Get Your MBA Online in 6 Weeks - Accredited University",
+      "status": "active",
+      "budget": {
+        "total": 1000000,
+        "remaining": 800000
+      },
+      "bidCpm": 1160,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 10000,
+        "dailySpend": 6000
+      }
+    },
+    {
+      "id": "camp-abuse-016",
+      "advertiserId": "adv-language-learning-scam",
+      "name": "Speak Fluent Spanish in 10 Days - Guaranteed or Money Back",
+      "status": "active",
+      "budget": {
+        "total": 1200000,
+        "remaining": 950000
+      },
+      "bidCpm": 1220,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 12000,
+        "dailySpend": 7200
+      }
+    },
+    {
+      "id": "camp-abuse-017",
+      "advertiserId": "adv-diet-pills-extreme",
+      "name": "Lose Belly Fat Overnight - One Pill Does It All",
+      "status": "active",
+      "budget": {
+        "total": 1100000,
+        "remaining": 880000
+      },
+      "bidCpm": 1190,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["fitness"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 11000,
+        "dailySpend": 5500
+      }
+    },
+    {
+      "id": "camp-abuse-018",
+      "advertiserId": "adv-nft-scam",
+      "name": "Buy This NFT Now - It Will Be Worth Millions Tomorrow",
+      "status": "active",
+      "budget": {
+        "total": 2400000,
+        "remaining": 1900000
+      },
+      "bidCpm": 1600,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA", "GB", "AU"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["tech"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 24000,
+        "dailySpend": 15000
+      }
+    },
+    {
+      "id": "camp-abuse-019",
+      "advertiserId": "adv-tax-refund-scam",
+      "name": "Get Your Tax Refund Early - No Filing Required",
+      "status": "active",
+      "budget": {
+        "total": 1400000,
+        "remaining": 1100000
+      },
+      "bidCpm": 1320,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free"],
+        "categories": ["finance"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 14000,
+        "dailySpend": 8500
+      }
+    },
+    {
+      "id": "camp-abuse-020",
+      "advertiserId": "adv-coding-bootcamp-scam",
+      "name": "Become a Software Engineer in 2 Weeks - $100k Salary Guaranteed",
+      "status": "active",
+      "budget": {
+        "total": 1300000,
+        "remaining": 1000000
+      },
+      "bidCpm": 1250,
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "targeting": {
+        "geo": ["US", "CA"],
+        "device": ["mobile", "desktop"],
+        "tier": ["free", "premium"],
+        "categories": ["education"],
+        "shows": []
+      },
+      "pacing": {
+        "dailyBudget": 13000,
+        "dailySpend": 7800
+      }
+    }
+  ]
+}

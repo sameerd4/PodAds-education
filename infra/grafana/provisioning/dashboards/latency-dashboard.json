@@ -1,0 +1,176 @@
+{
+  "title": "PodAds Lab - Latency Dashboard",
+  "tags": ["podads", "latency", "performance"],
+  "timezone": "browser",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "10s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Total Decision Latency (Average)",
+      "type": "stat",
+      "gridPos": {"h": 4, "w": 6, "x": 0, "y": 0},
+      "targets": [
+        {
+          "expr": "rate(ad_decision_latency_ms_seconds_sum[5m]) / rate(ad_decision_latency_ms_seconds_count[5m]) * 1000",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {"value": null, "color": "green"},
+              {"value": 50, "color": "yellow"},
+              {"value": 100, "color": "red"}
+            ]
+          }
+        }
+      },
+      "options": {
+        "graphMode": "none",
+        "colorMode": "value"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Max Decision Latency",
+      "type": "stat",
+      "gridPos": {"h": 4, "w": 6, "x": 6, "y": 0},
+      "targets": [
+        {
+          "expr": "ad_decision_latency_ms_seconds_max * 1000",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {"value": null, "color": "green"},
+              {"value": 50, "color": "yellow"},
+              {"value": 100, "color": "red"}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Decision Count",
+      "type": "stat",
+      "gridPos": {"h": 4, "w": 6, "x": 12, "y": 0},
+      "targets": [
+        {
+          "expr": "rate(ad_decision_latency_ms_seconds_count[5m])",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ops",
+          "decimals": 2
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "Decision Latency Over Time",
+      "type": "timeseries",
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 4},
+      "targets": [
+        {
+          "expr": "rate(ad_decision_latency_ms_seconds_sum[5m]) / rate(ad_decision_latency_ms_seconds_count[5m]) * 1000",
+          "legendFormat": "Average",
+          "refId": "A"
+        },
+        {
+          "expr": "ad_decision_latency_ms_seconds_max * 1000",
+          "legendFormat": "Max",
+          "refId": "B"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms",
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "smooth",
+            "fillOpacity": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "Stage Latency Breakdown",
+      "type": "barchart",
+      "gridPos": {"h": 8, "w": 6, "x": 12, "y": 4},
+      "targets": [
+        {
+          "expr": "rate(ad_stage_latency_ms_seconds_sum[5m]) / rate(ad_stage_latency_ms_seconds_count[5m]) * 1000",
+          "legendFormat": "{{stage}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms",
+          "custom": {
+            "orientation": "horizontal"
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "title": "Stage Latency Over Time",
+      "type": "timeseries",
+      "gridPos": {"h": 8, "w": 18, "x": 0, "y": 12},
+      "targets": [
+        {
+          "expr": "rate(ad_stage_latency_ms_seconds_sum{stage=\"Request\"}[5m]) / rate(ad_stage_latency_ms_seconds_count{stage=\"Request\"}[5m]) * 1000",
+          "legendFormat": "Request",
+          "refId": "A"
+        },
+        {
+          "expr": "rate(ad_stage_latency_ms_seconds_sum{stage=\"Sourcing\"}[5m]) / rate(ad_stage_latency_ms_seconds_count{stage=\"Sourcing\"}[5m]) * 1000",
+          "legendFormat": "Sourcing",
+          "refId": "B"
+        },
+        {
+          "expr": "rate(ad_stage_latency_ms_seconds_sum{stage=\"Filters\"}[5m]) / rate(ad_stage_latency_ms_seconds_count{stage=\"Filters\"}[5m]) * 1000",
+          "legendFormat": "Filters",
+          "refId": "C"
+        },
+        {
+          "expr": "rate(ad_stage_latency_ms_seconds_sum{stage=\"Auction\"}[5m]) / rate(ad_stage_latency_ms_seconds_count{stage=\"Auction\"}[5m]) * 1000",
+          "legendFormat": "Auction",
+          "refId": "D"
+        },
+        {
+          "expr": "rate(ad_stage_latency_ms_seconds_sum{stage=\"Serve\"}[5m]) / rate(ad_stage_latency_ms_seconds_count{stage=\"Serve\"}[5m]) * 1000",
+          "legendFormat": "Serve",
+          "refId": "E"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms"
+        }
+      }
+    }
+  ],
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": ["10s", "30s", "1m", "5m", "15m", "30m", "1h", "2h", "1d"]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-24T12:00:00Z",
+  "sources": {
+    "customer_reports": {
+      "description": "Ads reported by listeners as disturbing, inappropriate, or misleading",
+      "entries": [
+        {
+          "campaignId": "camp-abuse-001",
+          "reason": "inappropriate_content",
+          "reportedAt": "2026-01-20T10:30:00Z",
+          "details": "Listener reported misleading weight loss claims"
+        },
+        {
+          "campaignId": "camp-abuse-002",
+          "reason": "inappropriate_content",
+          "reportedAt": "2026-01-21T14:15:00Z",
+          "details": "Multiple reports of false health claims"
+        },
+        {
+          "campaignId": "camp-abuse-006",
+          "reason": "scam",
+          "reportedAt": "2026-01-22T09:00:00Z",
+          "details": "Listener reported predatory lending practices"
+        },
+        {
+          "campaignId": "camp-abuse-009",
+          "reason": "inappropriate_content",
+          "reportedAt": "2026-01-22T15:30:00Z",
+          "details": "Listener reported false health claims and inappropriate targeting"
+        },
+        {
+          "campaignId": "camp-abuse-014",
+          "reason": "scam",
+          "reportedAt": "2026-01-23T08:15:00Z",
+          "details": "Multiple reports of credit repair scam"
+        },
+        {
+          "campaignId": "camp-abuse-017",
+          "reason": "inappropriate_content",
+          "reportedAt": "2026-01-23T10:45:00Z",
+          "details": "Listener reported dangerous diet pill claims"
+        },
+        {
+          "campaignId": "camp-abuse-019",
+          "reason": "scam",
+          "reportedAt": "2026-01-23T14:20:00Z",
+          "details": "Listener reported tax refund scam"
+        }
+      ]
+    },
+    "ml_keyword_match": {
+      "description": "Ads flagged by ML keyword matching systems scanning campaign names and creative content",
+      "entries": [
+        {
+          "campaignId": "camp-abuse-003",
+          "creativeId": "creat-abuse-004",
+          "matchedKeywords": ["crypto", "trading bot", "guaranteed profit", "get rich"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-21T16:45:00Z",
+          "details": "ML detected common scam language patterns"
+        },
+        {
+          "campaignId": "camp-abuse-004",
+          "matchedKeywords": ["verification", "click now", "account needs", "urgent"],
+          "reason": "malicious_url",
+          "flaggedAt": "2026-01-21T18:20:00Z",
+          "details": "ML detected phishing attempt patterns"
+        },
+        {
+          "campaignId": "camp-abuse-005",
+          "matchedKeywords": ["work from home", "no experience", "make money", "guaranteed"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T11:30:00Z",
+          "details": "ML detected get-rich-quick scheme patterns"
+        },
+        {
+          "campaignId": "camp-abuse-007",
+          "matchedKeywords": ["phd", "no classes", "30 days", "instant"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T13:15:00Z",
+          "details": "ML detected diploma mill patterns"
+        },
+        {
+          "campaignId": "camp-abuse-008",
+          "matchedKeywords": ["certified expert", "instant certificate", "become expert"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T14:00:00Z",
+          "details": "ML detected fake certification scheme patterns"
+        },
+        {
+          "campaignId": "camp-abuse-010",
+          "matchedKeywords": ["gain muscle", "no gym", "30 days", "guaranteed"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T15:30:00Z",
+          "details": "ML detected unrealistic fitness claims"
+        },
+        {
+          "campaignId": "camp-abuse-011",
+          "matchedKeywords": ["free bitcoin", "earn daily", "no investment", "guaranteed"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T16:00:00Z",
+          "details": "ML detected cryptocurrency scam patterns"
+        },
+        {
+          "campaignId": "camp-abuse-012",
+          "matchedKeywords": ["security alert", "infected", "windows", "urgent"],
+          "reason": "malicious_url",
+          "flaggedAt": "2026-01-22T16:30:00Z",
+          "details": "ML detected tech support scam patterns"
+        },
+        {
+          "campaignId": "camp-abuse-013",
+          "matchedKeywords": ["double money", "guaranteed returns", "7 days", "investment"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T17:00:00Z",
+          "details": "ML detected investment scam patterns"
+        },
+        {
+          "campaignId": "camp-abuse-015",
+          "matchedKeywords": ["mba", "6 weeks", "accredited", "online degree"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T17:30:00Z",
+          "details": "ML detected diploma mill patterns"
+        },
+        {
+          "campaignId": "camp-abuse-016",
+          "matchedKeywords": ["fluent", "10 days", "guaranteed", "money back"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T18:00:00Z",
+          "details": "ML detected unrealistic language learning claims"
+        },
+        {
+          "campaignId": "camp-abuse-018",
+          "matchedKeywords": ["nft", "worth millions", "buy now", "tomorrow"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T18:30:00Z",
+          "details": "ML detected NFT investment scam patterns"
+        },
+        {
+          "campaignId": "camp-abuse-020",
+          "matchedKeywords": ["software engineer", "2 weeks", "100k salary", "guaranteed"],
+          "reason": "scam",
+          "flaggedAt": "2026-01-22T19:00:00Z",
+          "details": "ML detected coding bootcamp scam patterns"
+        }
+      ]
+    },
+    "manual_curation": {
+      "description": "Manually curated blocklist entries reviewed by brand safety team",
+      "entries": [
+        {
+          "campaignId": "camp-abuse-001",
+          "creativeId": "creat-abuse-001",
+          "reason": "brand_safety_violation",
+          "curatedAt": "2026-01-23T09:00:00Z",
+          "details": "Brand safety team confirmed misleading health claims violate policy"
+        },
+        {
+          "campaignId": "camp-abuse-003",
+          "reason": "brand_safety_violation",
+          "curatedAt": "2026-01-23T10:30:00Z",
+          "details": "Confirmed crypto scam - violates financial services policy"
+        },
+        {
+          "campaignId": "camp-abuse-011",
+          "creativeId": "creat-abuse-016",
+          "reason": "brand_safety_violation",
+          "curatedAt": "2026-01-23T11:30:00Z",
+          "details": "Confirmed Bitcoin mining scam - specific creative also flagged"
+        },
+        {
+          "campaignId": "camp-abuse-013",
+          "reason": "brand_safety_violation",
+          "curatedAt": "2026-01-23T12:30:00Z",
+          "details": "Confirmed investment scam - violates financial services policy"
+        },
+        {
+          "campaignId": "camp-abuse-004",
+          "reason": "brand_safety_violation",
+          "curatedAt": "2026-01-23T11:00:00Z",
+          "details": "Confirmed phishing attempt - immediate block required"
+        },
+        {
+          "campaignId": "camp-abuse-012",
+          "reason": "brand_safety_violation",
+          "curatedAt": "2026-01-23T12:00:00Z",
+          "details": "Confirmed tech support scam - violates security policy"
+        },
+        {
+          "campaignId": "camp-abuse-018",
+          "reason": "brand_safety_violation",
+          "curatedAt": "2026-01-23T13:00:00Z",
+          "details": "Confirmed NFT investment scam - violates financial services policy"
+        }
+      ]
+    }
+  },
+  "statistics": {
+    "totalBlockedCampaigns": 20,
+    "totalBlockedCreatives": 5,
+    "bySource": {
+      "customer_reports": 6,
+      "ml_keyword_match": 12,
+      "manual_curation": 6
+    },
+    "byReason": {
+      "scam": 14,
+      "inappropriate_content": 4,
+      "malicious_url": 2,
+      "brand_safety_violation": 6
+    },
+    "byCategory": {
+      "fitness": 5,
+      "tech": 5,
+      "finance": 5,
+      "education": 5
+    }
+  }
+}
