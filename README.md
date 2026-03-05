@@ -1,4 +1,4 @@
-# PodAds Lab
+# ![PodAds Lab](https://www.sameerdandekar.com/podAds/live)
 
 ![PodAds Lab UI](pics/Screenshot%202026-01-26%20at%209.01.49%E2%80%AFPM.png)
 
